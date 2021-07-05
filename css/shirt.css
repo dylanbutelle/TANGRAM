@@ -1,0 +1,44 @@
+/* TRIANGLE VERT POMME */
+.tangram--shirt .figure1 {
+  transform: translate(150px,-53px) rotate(45deg);
+}
+
+/* TRAPÈZE VIOLET */
+.tangram--shirt .figure2 {
+  left: 512px;
+  top: -53px;
+  transform: rotate(45deg) skew(45deg);
+}
+
+/* CARRÉ ROUGE */
+.tangram--shirt .figure3 {
+  transform: translate(331px,-53px);
+}
+
+/* TRIANGLE ORANGE */
+.tangram--shirt .figure4 {
+  transform: rotate(-135deg);
+    left: 331px;
+    top: 128px;
+}
+
+/* TRIANGLE JAUNE */
+.tangram--shirt .figure5 {
+  transform: rotate(-45deg);
+  top: 487px;
+  left: -214px;
+}
+
+/* TRIANGLE BLEU */
+.tangram--shirt .figure6 {
+  transform: rotate(-135deg);
+  top: 309px;
+  left: -30px;
+}
+
+/* TRIANGLE VERT FONCÉ */
+.tangram--shirt .figure7 {
+  transform: rotate(45deg);
+  top:-54px;
+  left:331px;
+}
