@@ -1,27 +1,27 @@
 var tangram = document.getElementsByClassName("tangram")[0];
 var button_basic = document.getElementsByClassName("button--basic")[0];
-var button_cat = document.getElementsByClassName("button--cat")[0];
-var button_butterfly = document.getElementsByClassName("button--butterfly")[0];
-var button_rabbit = document.getElementsByClassName("button--rabbit")[0];
-var button_snake = document.getElementsByClassName("button--snake")[0];
+var button_bougie = document.getElementsByClassName("button--bougie")[0];
+var button_shirt = document.getElementsByClassName("button--shirt")[0];
+var button_gun = document.getElementsByClassName("button--gun")[0];
+var button_dylan = document.getElementsByClassName("button--dylan")[0];
 
 button_basic.onclick = function() {
 	tangram.className =
   tangram.className.replace(/tangram--(\S*)/,'tangram--basic');
 };
-button_cat.onclick = function() {
+button_bougie.onclick = function() {
 	tangram.className =
-  tangram.className.replace(/tangram--(\S*)/,'tangram--cat');
+  tangram.className.replace(/tangram--(\S*)/,'tangram--bougie');
 };
-button_butterfly.onclick = function() {
+button_shirt.onclick = function() {
 	tangram.className =
-  tangram.className.replace(/tangram--(\S*)/,'tangram--butterfly');
+  tangram.className.replace(/tangram--(\S*)/,'tangram--shirt');
 };
-button_rabbit.onclick = function() {
+button_gun.onclick = function() {
 	tangram.className =
-  tangram.className.replace(/tangram--(\S*)/,'tangram--rabbit');
+  tangram.className.replace(/tangram--(\S*)/,'tangram--gun');
 };
-button_snake.onclick = function() {
+button_dylan.onclick = function() {
 	tangram.className =
-  tangram.className.replace(/tangram--(\S*)/,'tangram--snake');
+  tangram.className.replace(/tangram--(\S*)/,'tangram--dylan');
 };

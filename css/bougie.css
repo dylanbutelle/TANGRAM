@@ -1,31 +1,37 @@
-.figure1 {
-    /*already positionned*/
+.tangram--bougie .figure1 {
+    transform: rotate(225deg);
+    right: 0px;
+    bottom: -256px;
 }
 
-.figure2 {
-    left: 256px;
+.tangram--bougie .figure2 {
+    top: -489px;
+    left: 382px;
+    transform : rotate(90deg) skew(45deg);
 }
 
-.figure3 {
-    transform: rotate(45deg);
+.tangram--bougie .figure3 {
+    right: 164px;
+    top: -106px;
+}
+
+.tangram--bougie .figure4 {
+    transform: rotate(270deg);
+    left: 128px;
+    bottom: -256px;
+}
+
+.tangram--bougie .figure5 {
+    bottom: -128px;
+    right: 128px;
+}
+
+.tangram--bougie .figure6 {
     top: 128px;
     left: 128px;
 }
 
-.figure4 {
-    left: 128px;
-    top: 128px;
-}
-
-.figure5 {
-    /*already positionned*/
-}
-
-.figure6 {
-    bottom: 0;
-}
-
-.figure7 {
-    top:256px;
+.tangram--bougie .figure7 {
+    bottom: -256px;
     left:0;
 }
