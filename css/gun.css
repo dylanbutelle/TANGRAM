@@ -1,0 +1,45 @@
+.tangram--gun .figure1 {
+    /*already positionned*/
+    top:360px;
+    left: 210px;
+    transform: rotate(180deg);
+}
+
+.tangram--gun .figure2 {
+    left: 569px;
+    top: 129px;
+}
+
+.tangram--gun .figure3 {
+    transform: rotate(90deg);
+    top: 128px;
+    left: 390px;
+}
+
+.tangram--gun .figure4 {
+    left: 570px;
+    top: 128px;
+    transform: rotate(135deg);
+}
+
+.tangram--gun .figure5 {
+    /*already positionned*/
+    right: 152px;
+    
+    top: 985px;
+    transform: rotate(225deg);
+   
+}
+
+.tangram--gun .figure6 {
+    left: 825px;
+    bottom: 308px;
+    transform: rotate(45deg);
+}
+
+.tangram--gun .figure7 {
+    top:285px;
+    left:-333px;
+    transform: rotate(-45deg);
+    
+}
