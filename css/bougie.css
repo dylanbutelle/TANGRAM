@@ -1,31 +1,31 @@
-.tangram--basic .figure1 {
+.figure1 {
     /*already positionned*/
 }
 
-.tangram--basic .figure2 {
+.figure2 {
     left: 256px;
 }
 
-.tangram--basic .figure3 {
+.figure3 {
     transform: rotate(45deg);
     top: 128px;
     left: 128px;
 }
 
-.tangram--basic .figure4 {
+.figure4 {
     left: 128px;
     top: 128px;
 }
 
-.tangram--basic .figure5 {
+.figure5 {
     /*already positionned*/
 }
 
-.tangram--basic .figure6 {
+.figure6 {
     bottom: 0;
 }
 
-.tangram--basic .figure7 {
+.figure7 {
     top:256px;
     left:0;
 }
