@@ -1,0 +1,31 @@
+#figure1 {
+    /*already positionned*/
+}
+
+#figure2 {
+    left: 256px;
+}
+
+#figure3 {
+    transform: rotate(45deg);
+    top: 128px;
+    left: 128px;
+}
+
+#figure4 {
+    left: 128px;
+    top: 128px;
+}
+
+#figure5 {
+    /*already positionned*/
+}
+
+#figure6 {
+    bottom: 0;
+}
+
+#figure7 {
+    top:256px;
+    left:0;
+}
