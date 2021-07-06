@@ -29,7 +29,7 @@
 .tangram--gun .figure5 {
     /*already positionned*/
     
-    transform:translate(-153px,1047px) rotate(225deg);
+    transform:translate(-152px,1047px) rotate(225deg);
     animation-duration: 2s;
     animation-name: basictogun5;
    
@@ -91,7 +91,7 @@
         transform: rotate(0deg) translate(0px,0px);
     } 
     to {
-        transform:translate(-153px,1047px) rotate(225deg);
+        transform:translate(-152px,1047px) rotate(225deg);
     }
 }
 
