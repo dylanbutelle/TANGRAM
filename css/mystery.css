@@ -1,0 +1,114 @@
+
+/* TRIANGLE VERT POMME */
+.figure1 {
+    transform: translate(263px,-75px) rotate(45deg);
+    animation-duration: 2s;
+    animation-name: basictorocket1;
+}
+
+/* TRAPÈZE VIOLET */
+.figure2 {
+    transform: translate(700px, 106px) rotate(180deg) skew(-45deg);
+    animation-duration: 2s;
+    animation-name: basictorocket2;
+}
+
+/* CARRÉ ROUGE */
+.figure3 {
+    transform: translate(-122px,160px) rotate(45deg);
+    animation-duration: 2s;
+    animation-name: basictorocket3;
+}
+
+/* TRIANGLE ORANGE */
+.figure4 {
+    transform: translate(-68px, 362px);
+    animation-duration: 2s;
+    animation-name: basictorocket4;
+}
+
+/* TRIANGLE JAUNE */
+.figure5 {
+    transform: translate(-68px,106px);
+    animation-duration: 2s;
+    animation-name: basictorocket5;
+}
+
+/* TRIANGLE BLEU */
+.figure6 {
+    transform: translate(60px, 490px) rotate(-90deg);
+    animation-duration: 2s;
+    animation-name: basictorocket6;
+}
+
+/* TRIANGLE VERT FONCÉ */
+.figure7 {
+    transform: translate(700px, 106px) rotate(90deg);
+    animation-duration: 2s;
+    animation-name: basictorocket7;
+}
+@keyframes basictorocket1{
+    from {
+        transform: rotate(0deg) translate(0px,0px);
+    }
+    to {
+        transform: translate(263px,-75px) rotate(45deg);
+
+    }
+}
+
+@keyframes basictorocket2{
+    from {
+        transform: rotate(0deg) skew(-45deg) translate(256px,-0px);
+    }
+    to {
+        transform: translate(700px, 106px) rotate(180deg) skew(-45deg);
+
+    }
+}
+
+@keyframes basictorocket3{
+    from {
+        transform: rotate(0deg) translate(181px,0px) ;
+    }
+    to {
+        transform: translate(-122px,160px) rotate(45deg);
+    }
+}
+
+@keyframes basictorocket4{
+    from {
+        transform: rotate(0deg) translate(128px,128px);
+    }
+    to {
+        transform: translate(-68px, 362px);
+    }
+}
+
+@keyframes basictorocket5{
+    from {
+        transform: rotate(0deg) translate(0px,0px);
+    }
+    to {
+        transform: translate(-68px,106px);
+    }
+}
+
+@keyframes basictorocket6{
+    from {
+        transform: rotate(45deg) translate(0px,256px);
+    }
+    to {
+        transform: translate(60px, 490px) rotate(-90deg);
+    }
+}
+
+@keyframes basictorocket7{
+    from {
+        transform: rotate(0deg) translate(0px,256px);
+    }
+    to {
+        transform: translate(700px, 106px) rotate(90deg);
+
+    }
+}
