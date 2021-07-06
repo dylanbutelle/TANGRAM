@@ -25,3 +25,4 @@ button_dylan.onclick = function() {
 	tangram.className =
   tangram.className.replace(/tangram--(\S*)/,'tangram--dylan');
 };
+
