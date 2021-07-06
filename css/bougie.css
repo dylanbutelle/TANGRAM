@@ -1,37 +1,109 @@
+.tangram--bougie {
+    transform: scale(0.5);
+    top: 64px;
+}
+
 .tangram--bougie .figure1 {
-    transform: rotate(225deg);
-    right: 0px;
-    bottom: -256px;
+    transform: rotate(225deg) translate(-363px, 0px);
+    animation-duration: 2s;
+    animation-name: basictobougie1;
 }
 
 .tangram--bougie .figure2 {
-    top: -489px;
-    left: 382px;
-    transform : rotate(90deg) skew(45deg);
+    transform: translate(360px, -335px) rotate(115deg) skew(135deg);
+    animation-duration: 2s;
+    animation-name: basictobougie2;
 }
 
 .tangram--bougie .figure3 {
-    right: 164px;
-    top: -106px;
+    transform: translate(165px, -105px);
+    animation-duration: 2s;
+    animation-name: basictobougie3;
 }
 
 .tangram--bougie .figure4 {
-    transform: rotate(270deg);
-    left: 128px;
-    bottom: -256px;
+    transform: rotate(270deg) translate(-640px , 128px);
+    animation-duration: 2s;
+    animation-name: basictobougie4;
 }
 
 .tangram--bougie .figure5 {
-    bottom: -128px;
-    right: 128px;
+    transform: translate(-128px , 128px);
+    animation-duration: 2s;
+    animation-name: basictobougie5;
 }
 
 .tangram--bougie .figure6 {
-    top: 128px;
-    left: 128px;
+    transform: translate(128px , 128px);
+    animation-duration: 2s;
+    animation-name: basictobougie6;
 }
 
 .tangram--bougie .figure7 {
-    bottom: -256px;
-    left:0;
+    transform: translate(0px , 512px);
+    animation-duration: 2s;
+    animation-name: basictobougie7;
+}
+
+@keyframes basictobougie1{
+    from {
+        transform: rotate(0deg) translate(0px,0px);
+    } 
+    to {
+        transform: rotate(225deg) translate(-363px, 0px);
+    }
+}
+
+@keyframes basictobougie2{
+    from {
+        transform: rotate(0deg) skew(-45deg) translate(256px,-0px);
+    } 
+    to {
+        transform: translate(360px, -335px) rotate(115deg) skew(135deg);
+    }
+}
+
+@keyframes basictobougie3{
+    from {
+        transform: rotate(45deg) translate(181px,0px);
+    } 
+    to {
+        transform: translate(165px, -105px);
+    }
+}
+
+@keyframes basictobougie4{
+    from {
+        transform: rotate(0deg) translate(128px,128px);
+    } 
+    to {
+        transform: rotate(270deg) translate(-640px , 128px);
+    }
+}
+
+@keyframes basictobougie5{
+    from {
+        transform: rotate(0deg) translate(0px,0px);
+    } 
+    to {
+        transform: translate(-128px , 128px);
+    }
+}
+
+@keyframes basictobougie6{
+    from {
+        transform: rotate(0deg) translate(0px,256px);
+    } 
+    to {
+        transform: translate(128px , 128px);
+    }
+}
+
+@keyframes basictobougie7{
+    from {
+        transform: rotate(0deg) translate(0px,256px);
+    } 
+    to {
+        transform: translate(0px , 512px);
+    }
 }
