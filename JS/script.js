@@ -3,7 +3,7 @@ var button_basic = document.getElementsByClassName("button--basic")[0];
 var button_bougie = document.getElementsByClassName("button--bougie")[0];
 var button_shirt = document.getElementsByClassName("button--shirt")[0];
 var button_gun = document.getElementsByClassName("button--gun")[0];
-var button_dylan = document.getElementsByClassName("button--dylan")[0];
+var button_rocket = document.getElementsByClassName("button--rocket")[0];
 
 button_basic.onclick = function() {
 	tangram.className =
@@ -21,7 +21,7 @@ button_gun.onclick = function() {
 	tangram.className =
   tangram.className.replace(/tangram--(\S*)/,'tangram--gun');
 };
-button_dylan.onclick = function() {
+button_rocket.onclick = function() {
 	tangram.className =
-  tangram.className.replace(/tangram--(\S*)/,'tangram--dylan');
+  tangram.className.replace(/tangram--(\S*)/,'tangram--rocket');
 };
