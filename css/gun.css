@@ -2,36 +2,113 @@
     /*already positionned*/
    
     transform:translate(209px,384px) rotate(180deg);
+    animation-duration: 2s;
+    animation-name: basictogun1;
 }
 
 .tangram--gun .figure2 {
     transform: translate(569px,129px) skew(-45deg);
+    animation-duration: 2s;
+    animation-name: basictogun2;
 }
 
 .tangram--gun .figure3 {
     transform: translate(390px,128px) rotate(90deg);
+    animation-duration: 2s;
+    animation-name: basictogun3;
   
 }
 
 .tangram--gun .figure4 {
     
     transform:translate(571px,128px) rotate(135deg);
+    animation-duration: 2s;
+    animation-name: basictogun4;
 }
 
 .tangram--gun .figure5 {
     /*already positionned*/
     
     transform:translate(-153px,1047px) rotate(225deg);
+    animation-duration: 2s;
+    animation-name: basictogun5;
    
 }
 
 .tangram--gun .figure6 {
  
     transform:translate(825px,-51px)  rotate(45deg);
+    animation-duration: 2s;
+    animation-name: basictogun6;
 }
 
 .tangram--gun .figure7 {
    
     transform:translate(-333px,308px) rotate(-45deg);
+    animation-duration: 2s;
+    animation-name: basictogun7;
     
+}
+
+@keyframes basictogun1{
+    from {
+        transform: rotate(0deg) translate(0px,0px);
+    } 
+    to {
+        transform:translate(209px,384px) rotate(180deg);
+    }
+}
+
+@keyframes basictogun2{
+    from {
+        transform: rotate(0deg) skew(-45deg) translate(256px,-0px);
+    } 
+    to {
+        transform: translate(569px,129px) skew(-45deg);
+    }
+}
+
+@keyframes basictogun3{
+    from {
+        transform: rotate(45deg) translate(181px,0px);
+    } 
+    to {
+        transform: translate(390px,128px) rotate(90deg);
+    }
+}
+
+@keyframes basictogun4{
+    from {
+        transform: rotate(0deg) translate(128px,128px);
+    } 
+    to {
+        transform:translate(571px,128px) rotate(135deg);
+    }
+}
+
+@keyframes basictogun5{
+    from {
+        transform: rotate(0deg) translate(0px,0px);
+    } 
+    to {
+        transform:translate(-153px,1047px) rotate(225deg);
+    }
+}
+
+@keyframes basictogun6{
+    from {
+        transform: rotate(0deg) translate(0px,256px);
+    } 
+    to {
+        transform:translate(825px,-51px)  rotate(45deg);
+    }
+}
+
+@keyframes basictogun7{
+    from {
+        transform: rotate(0deg) translate(0px,256px);
+    } 
+    to {
+        transform:translate(-333px,308px) rotate(-45deg);
+    }
 }
