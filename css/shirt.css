@@ -1,36 +1,112 @@
 /* TRIANGLE VERT POMME */
 .tangram--shirt .figure1 {
     transform: translate(150px,-53px) rotate(45deg);
+    animation-duration: 2s;
+    animation-name: basictoshirt1;
 }
 
 /* TRAPÈZE VIOLET */
 .tangram--shirt .figure2 {
     transform: translate(511px, -53px) rotate(45deg) skew(45deg);
+    animation-duration: 2s;
+    animation-name: basictoshirt2;
 }
 
 /* CARRÉ ROUGE */
 .tangram--shirt .figure3 {
     transform: translate(330px,-53px);
+    animation-duration: 2s;
+    animation-name: basictoshirt3;
 }
 
 /* TRIANGLE ORANGE */
 .tangram--shirt .figure4 {
     transform: translate(331px, 128px) rotate(-135deg);
+    animation-duration: 2s;
+    animation-name: basictoshirt4;
 }
 
 /* TRIANGLE JAUNE */
 .tangram--shirt .figure5 {
     transform: translate(-213px, 489px) rotate(-45deg);
+    animation-duration: 2s;
+    animation-name: basictoshirt5;
 }
 
 /* TRIANGLE BLEU */
 .tangram--shirt .figure6 {
-    transform: rotate(-135deg);
-    top: 309px;
-    left: -30px;
+    transform: translate(-30px, 309px) rotate(-135deg);
+    animation-duration: 2s;
+    animation-name: basictoshirt6;
 }
 
 /* TRIANGLE VERT FONCÉ */
 .tangram--shirt .figure7 {
     transform: translate(330px, -54px) rotate(45deg);
+    animation-duration: 2s;
+    animation-name: basictoshirt7;
+}
+
+
+@keyframes basictoshirt1{
+    from {
+        transform: rotate(0deg) translate(0px,0px);
+    } 
+    to {
+        transform: translate(150px,-53px) rotate(45deg);
+    }
+}
+
+@keyframes basictoshirt2{
+    from {
+        transform: rotate(0deg) skew(-45deg) translate(256px,-0px);
+    } 
+    to {
+        transform: translate(511px, -53px) rotate(45deg) skew(45deg);
+    }
+}
+
+@keyframes basictoshirt3{
+    from {
+        transform: rotate(45deg) translate(181px,0px);
+    } 
+    to {
+        transform: translate(330px,-53px);
+    }
+}
+
+@keyframes basictoshirt4{
+    from {
+        transform: rotate(0deg) translate(128px,128px);
+    } 
+    to {
+        transform: translate(331px, 128px) rotate(-135deg);
+    }
+}
+
+@keyframes basictoshirt5{
+    from {
+        transform: rotate(0deg) translate(0px,0px);
+    } 
+    to {
+        transform: translate(-213px, 489px) rotate(-45deg);
+    }
+}
+
+@keyframes basictoshirt6{
+    from {
+        transform: rotate(0deg) translate(0px,256px);
+    } 
+    to {
+        transform: translate(-30px, 309px) rotate(-135deg);
+    }
+}
+
+@keyframes basictoshirt7{
+    from {
+        transform: rotate(0deg) translate(0px,256px);
+    } 
+    to {
+        transform: translate(330px, -54px) rotate(45deg);
+    }
 }
