@@ -72,7 +72,7 @@
 
 @keyframes basictorocket3{
     from {
-        transform: rotate(45deg) translate(181px,0px);
+        transform: rotate(0deg) translate(181px,0px) ;
     }
     to {
         transform: translate(194px,472px) rotate(45deg);
@@ -99,7 +99,7 @@
 
 @keyframes basictorocket6{
     from {
-        transform: rotate(0deg) translate(0px,256px);
+        transform: rotate(45deg) translate(0px,256px);
     }
     to {
         transform: translate(66px, 600px);;
