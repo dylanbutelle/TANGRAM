@@ -25,3 +25,4 @@ button_rocket.onclick = function() {
 	tangram.className =
   tangram.className.replace(/tangram--(\S*)/,'tangram--rocket');
 };
+

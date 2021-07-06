@@ -102,7 +102,7 @@
         transform: rotate(45deg) translate(0px,256px);
     }
     to {
-        transform: translate(66px, 600px);;
+        transform: translate(66px, 600px);
     }
 }
 
